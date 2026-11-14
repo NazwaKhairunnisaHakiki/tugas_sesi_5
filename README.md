@@ -36,5 +36,5 @@ NusaEvent Hub merupakan aplikasi mobile untuk menampilkan daftar seminar, meliha
 
 ## Tugas Praktikum
 
-Mata Kuliah: Pemrograman Mobile  
+Mata Kuliah: Pemrograman Perangkat Mobile 
 Proyek: Tugas 5 — NusaEvent Hub
