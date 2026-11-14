@@ -1,0 +1,67 @@
+import '../models/event_item.dart';
+
+const List<EventItem> sampleEvents = [
+  EventItem(
+    id: 'EV001',
+    title: 'Artificial Intelligence for Future',
+    speaker: 'Dr. Andi Pratama',
+    category: 'AI',
+    description: 'Mengenal perkembangan Artificial Intelligence dan penerapannya di berbagai bidang.',
+    date: '20 Desember 2026',
+    time: '09.00 - 12.00 WIB',
+    location: 'Auditorium Gedung A',
+    poster: 'assets/images/ai.jpg',
+    price: 50000,
+  ),
+  EventItem(
+    id: 'EV002',
+    title: 'Flutter Mobile Development',
+    speaker: 'Budi Santoso, S.Kom.',
+    category: 'Mobile',
+    description:
+        'Workshop membuat aplikasi mobile menggunakan Flutter dan Dart.',
+    date: '21 Desember 2026',
+    time: '09.00 - 15.00 WIB',
+    location: 'Lab Komputer 1',
+    poster: 'assets/images/mobile.jpg',
+    price: 75000,
+  ),
+  EventItem(
+    id: 'EV003',
+    title: 'Internet of Things Innovation',
+    speaker: 'Rina Amelia, M.T.',
+    category: 'IoT',
+    description: 'Belajar konsep IoT dan implementasi perangkat pintar.',
+    date: '22 Desember 2026',
+    time: '10.00 - 13.00 WIB',
+    location: 'Ruang Seminar B',
+    poster: 'assets/images/iot.jpg',
+    price: 45000,
+  ),
+  EventItem(
+    id: 'EV004',
+    title: 'Cybersecurity Awareness',
+    speaker: 'Dedi Kurniawan, S.Kom.',
+    category: 'Cybersecurity',
+    description:
+        'Memahami keamanan digital, ancaman siber, dan perlindungan data.',
+    date: '23 Desember 2026',
+    time: '09.00 - 12.00 WIB',
+    location: 'Auditorium Gedung A',
+    poster: 'assets/images/cyber.jpg',
+    price: 50000,
+  ),
+  EventItem(
+    id: 'EV005',
+    title: 'Generative AI Workshop',
+    speaker: 'Siti Rahmawati, M.Kom.',
+    category: 'AI',
+    description:
+        'Praktik menggunakan teknologi generative AI untuk produktivitas.',
+    date: '24 Desember 2026',
+    time: '13.00 - 16.00 WIB',
+    location: 'Lab Komputer 2',
+    poster: 'assets/images/generative_ai.jpg',
+    price: 60000,
+  ),
+];
