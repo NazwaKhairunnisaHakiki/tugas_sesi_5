@@ -1,17 +1,40 @@
-# tugas_sesi_5
+# NusaEvent Hub
 
-A new Flutter project.
+Aplikasi manajemen informasi seminar dan pendaftaran tiket berbasis Flutter.
 
-## Getting Started
+## Deskripsi
 
-This project is a starting point for a Flutter application.
+NusaEvent Hub merupakan aplikasi mobile untuk menampilkan daftar seminar, melihat galeri dan denah lokasi acara, memfilter seminar berdasarkan kategori, melakukan pendaftaran, serta melihat dan membatalkan tiket.
 
-A few resources to get you started if this is your first Flutter project:
+## Fitur Aplikasi
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Daftar seminar dengan poster dan informasi acara.
+- Galeri dan denah lokasi acara.
+- Filter seminar berdasarkan kategori.
+- Formulir pendaftaran dengan validasi input.
+- Daftar tiket seminar yang telah didaftarkan.
+- Dialog konfirmasi pembatalan tiket.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Teknologi
+
+- Flutter
+- Dart
+- Material Design 3
+
+## Struktur Proyek
+
+- `lib/` — source code aplikasi.
+- `assets/images/` — gambar dan poster seminar.
+- `test/` — file pengujian.
+- `pubspec.yaml` — konfigurasi dan dependensi Flutter.
+
+## Cara Menjalankan
+
+1. Pastikan Flutter SDK sudah terpasang.
+2. Jalankan `flutter pub get`.
+3. Jalankan `flutter run`.
+
+## Tugas Praktikum
+
+Mata Kuliah: Pemrograman Mobile  
+Proyek: Tugas 5 — NusaEvent Hub
